@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard UI</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <div class="sidebar-header">
+        <div class="logo">
+          <span>📊</span> Dashboard
+        </div>
+      </div>
+      <nav class="sidebar-menu">
+        <ul>
+          <li class="menu-item"><span>🏠</span> Home</li>
+          <li class="menu-item"><span>👤</span> Profile</li>
+          <li class="menu-item"><span>✉️</span> Messages</li>
+          <li class="menu-item"><span>📜</span> History</li>
+          <li class="menu-item"><span>📋</span> Tasks</li>
+          <li class="menu-item"><span>👥</span> Communities</li>
+        </ul>
+      </nav>
+      <div class="sidebar-footer">
+        <ul>
+          <li class="footer-item"><span>⚙️</span> Settings</li>
+          <li class="footer-item"><span>❓</span> Support</li>
+          <li class="footer-item"><span>🛡️</span> Privacy</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+      <!-- Header -->
+      <header class="main-header">
+        <div class="search-bar">
+          <input type="text" placeholder="Search" />
+        </div>
+        <div class="user-info">
+          <div class="notification-icon">🔔</div>
+          <div class="user-avatar">
+            <img src="face-man-shimmer.svg" alt="User Avatar" />
+          </div>
+          <span class="username">Morgan Oakley</span>
+        </div>
+      </header>
+
+      <!-- User Introduction -->
+      <section class="user-intro">
+        <div class="avatar-right">
+          <div class="avatar">
+            <img src="face-man-shimmer.svg" alt="User Avatar" />
+          </div>
+          <div class="user-greeting">
+            <p>Hi there,</p>
+            <h2>Morgan Oakley <span>(@morgan)</span></h2>
+          </div>
+        </div>
+        <div class="action-buttons">
+          <button class="btn-new">New</button>
+          <button class="btn-upload">Upload</button>
+          <button class="btn-share">Share</button>
+        </div>
+      </section>
+
+      <!-- Main Dashboard -->
+      <div class="dashboard">
+        <!-- Projects Section -->
+        <div class="projects-section">
+          <h3>Your Projects</h3>
+          <div class="projects-grid">
+            <!-- Individual Project Cards -->
+            <div class="project-card">
+              <h4>Super Cool Project</h4>
+              <p>Sed tempus ut lacus ut scelerisque. Suspendisse sollicitudin nibh erat, id facilisis felis accumsan nec.</p>
+              <div class="card-actions">
+                <span>⭐</span>
+                <span>👁️</span>
+                <span>🔗</span>
+              </div>
+            </div>
+            <div class="project-card">
+              <h4>Less Cool Project</h4>
+              <p>Nullam condimentum ipsum ut lectus vehicula consectetur. Quisque sed dolor tincidunt.</p>
+              <div class="card-actions">
+                <span>⭐</span>
+                <span>👁️</span>
+                <span>🔗</span>
+              </div>
+            </div>
+            <div class="project-card">
+              <h4>Impossible App</h4>
+              <p>In hac habitasse platea dictumst. Vivamus dictum rutrum arcu, a placerat velit sagittis id.</p>
+              <div class="card-actions">
+                <span>⭐</span>
+                <span>👁️</span>
+                <span>🔗</span>
+              </div>
+            </div>
+            <div class="project-card">
+              <h4>Easy Peasy App</h4>
+              <p>Etiam cursus eros ac efficitur fringilla. Vestibulum dignissim urna eget accumsan aliquam.</p>
+              <div class="card-actions">
+                <span>⭐</span>
+                <span>👁️</span>
+                <span>🔗</span>
+              </div>
+            </div>
+            <div class="project-card">
+              <h4>Ad Blocker</h4>
+              <p>Quisque eget rutrum nisl. Nam augue justo, cursus vitae metus vel, pharetra hendrerit felis.</p>
+              <div class="card-actions">
+                <span>⭐</span>
+                <span>👁️</span>
+                <span>🔗</span>
+              </div>
+            </div>
+            <div class="project-card">
+              <h4>Money Maker</h4>
+              <p>Praesent convallis, libero quis congue elementum, nunc ante faucibus sapien.</p>
+              <div class="card-actions">
+                <span>⭐</span>
+                <span>👁️</span>
+                <span>🔗</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Announcements -->
+        <div class="announcements-section">
+          <h3>Announcements</h3>
+          <div class="announcement-card">
+            <h4>Site Maintenance</h4>
+            <p>Vestibulum condimentum tellus lacus, in accumsan elit maximus ac.</p>
+          </div>
+          <div class="announcement-card">
+            <h4>Community Share Day</h4>
+            <p>Nam vel lectus tincidunt, rutrum nulla eu, ornare libero.</p>
+          </div>
+          <div class="announcement-card">
+            <h4>Updated Privacy Policy</h4>
+            <p>Phasellus efficitur nisi eget elit consectetur.</p>
+          </div>
+        </div>
+
+        <!-- Trending -->
+        <div class="trending-section">
+          <h3>Trending</h3>
+          <div class="trending-card">
+            <p>🐶 @tegan</p>
+            <p>World Peace Builder</p>
+          </div>
+          <div class="trending-card">
+            <p>👤 @morgan</p>
+            <p>Super Cool Project</p>
+          </div>
+          <div class="trending-card">
+            <p>📱 @kendall</p>
+            <p>Life Changing App</p>
+          </div>
+          <div class="trending-card">
+            <p>🚗 @alex</p>
+            <p>No Traffic Maker</p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
