@@ -55,7 +55,7 @@
   
   .menu-item:hover,
   .footer-item:hover {
-    background-color: #2563eb;
+    background-color: #500000;
   }
   
   /* Main Content */
@@ -131,7 +131,7 @@
     height: fit-content;
   }
   .action-buttons button {
-    background-color: #1d4ed8;
+    background-color: #aa0000;
     color: #ffffff;
     border: none;
     padding: 10px 20px;
@@ -142,7 +142,7 @@
   }
   
   .action-buttons button:hover {
-    background-color: #2563eb;
+    background-color: #500000;
   }
 
   .dashboard{
